@@ -9,7 +9,7 @@ app.use(express.json()); // to use json inside the express application.
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', 'https://convin-video-player-api.onrender.com');
+    res.setHeader('Access-Control-Allow-Origin', 'https://covin-video-player.netlify.app/');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
